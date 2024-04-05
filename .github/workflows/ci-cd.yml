@@ -16,6 +16,6 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: TheRegzi/github-pages-deploy-action@v4
+        uses: TheRegzi/testing2@v4
         with:
           folder: build # The folder the action should deploy.
