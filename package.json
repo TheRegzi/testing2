@@ -1,0 +1,17 @@
+{
+  "name": "testing2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/styles.css --watch",
+    "build": "npx tailwindcss -o ./css/styles.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css": "^3.0.0",
+  }
+}
